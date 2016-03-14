@@ -1,4 +1,4 @@
-# Table Flip
+# Table Flip    [![Build Status](https://travis-ci.org/sh0hei/table-flip.svg?branch=master)](https://travis-ci.org/sh0hei/table-flip)
 
 pretty-printing text tables in Scala.
 
