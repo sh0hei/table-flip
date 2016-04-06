@@ -11,6 +11,8 @@ libraryDependencies ++= Seq(
   "org.specs2" %% "specs2-core" % "3.6.4" % "test"
 )
 
+scalacOptions ++= Seq("-deprecation", "-feature", "-unchecked", "-Xlint")
+
 scalacOptions in Test ++= Seq("-Yrangepos")
 
 // Uncomment to use Akka
